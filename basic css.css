@@ -1,0 +1,304 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.a{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 23px;
+}
+
+
+
+
+
+body{
+  background-color: rgba(214, 207, 202, 0.74);
+  
+}
+
+.top{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 100px;
+  background-color: crimson;
+ 
+  
+ width: 30vw;
+  height: 20vh;
+}
+.b2{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  font-weight: 200;
+}
+.b3{
+  color: blue;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+ width: 100%;
+  height: 15vh;
+ 
+
+
+
+}
+.grid-child1{
+  background-color:crimson;
+  width:450 ;
+text-align: center;
+padding-top: 35px;
+padding-right: 50px;
+}
+.grid-child2{
+  background-color:crimson;
+  text-align: center;
+  width: 450;
+  padding-left: 30px;
+  padding-right: 20;
+}
+.grid-child3{
+  background-color:crimson;
+  width: 450;
+  text-align: center;
+padding-top: 35px;
+padding-left: 30px;
+}
+
+.grid-child1:hover{
+  background-color: rgb(241, 229, 229);
+}
+.grid-child2:hover{
+  background-color: rgb(241, 229, 229);
+}
+.grid-child3:hover{
+  background-color: rgb(241, 229, 229);
+}
+
+div{
+  width: 100%;
+  background-color:crimson;
+}
+h1{
+  text-align: center;
+  font-family:Impact;
+  font-style:oblique;
+  font-size: 50px;
+  opacity:500;
+  font-weight: 500;
+  color: dimgrey;
+}
+
+
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer; 
+  margin-left: 200;
+}
+
+.success {background-color: #04AA6D;}
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} 
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;}
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} 
+.danger:hover {background: #da190b;}
+
+.grid-layout {
+
+  width: 100%;
+  height: 50vh;
+
+
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+
+  justify-items: center;
+  align-items: center;
+}
+
+
+
+.box1-f {
+  height: 300;
+  width: 400;
+
+}
+.box2-f {
+  height:300;
+  width: 400;
+  padding-left: 80px;
+
+}
+.box3-f {
+  height: 300;
+  width: 400;
+
+}
+
+
+
+.flex-layout {
+ 
+  width: 100%;
+  height: 50vh;
+
+ 
+  display: flex;
+
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+
+
+.container1 {
+  position: relative;
+  width: 80%;
+margin-left: 50;
+height: 270;
+}
+
+.image1 {
+  opacity: 1;
+  display: block;
+  width: 400;
+  height: 270;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+
+.middle1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1:hover .image1 {
+  opacity: 0.3;
+}
+
+.container1:hover .middle1 {
+  opacity: 1;
+}
+
+.text1 {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: Eras Bold ITC;
+}
+
+
+
+.container2 {
+  position: relative;
+  width: 80%;
+
+
+}
+
+.image2 {
+  opacity: 1;
+  display: block;
+  width: 400;
+  height: 270;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container2:hover .image2 {
+  opacity: 0.3;
+}
+
+.container2:hover .middle2 {
+  opacity: 1;
+}
+
+.text2 {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+.flex-layout2 {
+ 
+  width: 100%;
+  height: 50vh;
+
+ 
+  display: flex;
+
+  justify-content: space-around; 
+  align-items: center; 
+  text-align: center;
+}
+.bottom1{
+  color: #f5e8d6;
+}
+.bottom2{
+  color: #e9e5df;
+}
+.bottom3{
+  color: #e9e5df;
+}
+.last{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
